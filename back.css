@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: limegreen;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.terminal {
+  border: 2px solid limegreen;
+  padding: 20px;
+  width: 60%;
+  max-width: 600px;
+  min-height: 200px;
+  background: black;
+}
+
+.output {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1.2rem;
+}
+
+.logo {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 100px;
+}
+
+.hidden {
+  display: none;
+}
